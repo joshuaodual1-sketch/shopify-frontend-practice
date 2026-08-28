@@ -1,5 +1,4 @@
-<style>
-    .first-button {
+.first-button {
         background-color: black;
         color: white;
         padding: 17px 30px;
@@ -116,19 +115,3 @@
         background-color: rgba(172, 241, 250, 0.3);
         
     }
-
-</style>
-
-<button class="first-button">Request now</button>
-
-<button class="second-button">Add to Cart</button>
-
-<button class="third-button">Sign Up</button>
-
-<button class="fourth-button">Get started</button>
-
-<button class="fifth-button">Download</button>
-
-<button class="sixth-button">Apply on company website</button>
-
-<button class="seventh-button">Save</button>
