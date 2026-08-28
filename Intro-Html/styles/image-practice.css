@@ -1,0 +1,81 @@
+div {
+    margin-top: 20px;
+}
+
+.zen {
+    width: 200px;
+    border-radius: 110px;
+    margin-bottom: 30px;
+}
+
+#search-box {
+    padding: 9px 8px;
+    border: solid 1.8px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+#google {
+    font-family: sans-serif;
+    padding: 9.5px 120px 9.5px 5px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.2s ease-in-out;
+    box-sizing: border-box;
+    resize: vertical;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+#google:focus {
+    box-shadow: 0 0 16px 6px rgba(0, 0, 0, 0.25)
+}
+
+.email-label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 99, 99);
+}
+
+#email {
+    padding: 7px 152px 7px 2px;
+    margin-top: 7px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid;
+    margin-bottom: 6px;
+}
+
+.details {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(95, 94, 94);
+    margin-bottom: 10px;
+}
+
+.cta {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 126px;
+    background-color: rgb(73, 136, 255);
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: ease-in-out opacity 0.15s;
+    margin-bottom: 30px;
+}
+
+.cta:hover {
+    opacity: 0.85;
+}
+
+.cta:active {
+    opacity: 0.75;
+}
+
+.form {
+    margin-left: 6px;
+}
+
+
