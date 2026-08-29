@@ -91,6 +91,7 @@ div {
     box-sizing: border-box;
     resize: vertical;
     width: 26%;
+    margin-bottom: 20px;
 }
 
 .tweet:active {
