@@ -1,0 +1,160 @@
+div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.name {
+    padding: 5px 20px 5px 2px;
+    display: block;
+    margin: 7px;
+}
+
+.email {
+    padding: 5px 20px 5px 2px;
+    display: block;
+    margin: 7px;
+}
+
+.custommer-care-page {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.custommer-care {
+    display: inline-block;
+    width: 187px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13.7px;
+    line-height: 20px;
+}
+
+.google-banner {
+    width: 200px;
+    height: 70px;
+    object-fit: cover;
+    margin-left: 43%;
+    margin-right: 43%;
+    margin-bottom: 20px;
+
+}
+
+.search-bar {
+    font-family: sans-serif;
+    padding: 9.5px 120px 9.5px 6px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.2s ease-in-out;
+    box-sizing: border-box;
+    resize: vertical;
+    width: 40%;
+    margin-bottom: 30px;
+    margin-left: 410px;
+}
+
+.search-bar:focus {
+    box-shadow: 0 0 16px 6px rgba(0, 0, 0, 0.25)
+}
+
+#first-name,
+#last-name {
+    padding: 9px 7px 9px 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+#email {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 9px 198px 9px 7px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-bottom: 4.7px;
+}
+
+.sign-up {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 9px 159px 7px;
+    background-color:dodgerblue;
+    color:white;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: box-shadow ease-in-out 0.2s;
+}
+
+.sign-up:hover {
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.sign-up:active {
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.29)
+}
+
+
+.form {
+    margin-left: 20px;
+}
+
+.uber {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#uber-location,
+#uber-destination {
+    display: block;
+    background-color: aliceblue;
+    border: none;
+    margin-bottom: 7px;
+    padding: 10px 49px 10px;
+    border-radius: 9px;
+    
+}
+
+.uber-request {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 11px 12px 11px;
+    cursor: pointer;
+    margin-top: 29px;
+    vertical-align: top;
+    transition: box-shadow ease-in-out 0.2s;
+}
+
+.uber-request:hover {
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.uber-request:active {
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.29)
+}
+
+.uber-schedule {
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    padding: 11px 12px 11px;
+    margin-left: 12px;
+    cursor: pointer;
+    margin-top: 29px;
+    transition: box-shadow ease-in-out 0.2s;
+    margin-bottom: 30px;
+}
+
+.uber-schedule:hover {
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.uber-schedule:active {
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.29)
+}
