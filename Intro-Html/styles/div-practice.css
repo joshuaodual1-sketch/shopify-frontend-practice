@@ -1,0 +1,124 @@
+
+.red-box {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+
+}
+
+.green-circle {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  border-radius: 25px;
+  
+}
+
+.customer-service {
+  border: 1px solid rgba(0, 0, 0, 0.438);
+  display: inline-block;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.youtube-container {
+  display: inline-block;
+  padding: 7px 15px 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(0, 0, 0, 0.808);
+  color: white;
+  margin: 3px;
+}
+
+.youtube-cta {
+  font-weight: bold;
+  font-size: 25px;
+  margin: 3px;
+}
+
+.youtube-details {
+  font-size: 14px;
+  width: 320px;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.profile-container {
+  display: inline-block;
+  border: none;
+  padding: 0px 0px 10px;
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.338);
+  margin: 4px;
+}
+
+.pfp {
+  width: 120px;
+  max-height: 120px;
+}
+
+.name {
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+.friends {
+  font-size: 13px;
+  margin-top: 7px;
+  color: rgba(0, 0, 0, 0.808);
+  margin-left: 10px;
+}
+
+.add-button {
+  margin-left: 10px;
+  padding: 7px 10px 7px;
+  background-color: #1877F2;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: box-shadow ease-in-out 0.13s;
+}
+
+.add-button:hover {
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.295);
+}
+
+.add-button:active {
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.515);
+}
+
+.google {
+  text-align: center;
+}
+
+.google-logo {
+  width: 300px;
+}
+
+#search-box {
+    font-family: sans-serif;
+    padding: 11.5px 120px 11.5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 9px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.2s ease-in-out;
+    box-sizing: border-box;
+    resize: vertical;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+#search-box:hover {
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+#search-box:focus {
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.4);
+}
