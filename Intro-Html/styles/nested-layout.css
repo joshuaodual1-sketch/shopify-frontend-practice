@@ -1,0 +1,75 @@
+p {
+    margin: 0px;
+}
+
+.suggestion {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 400px;
+}
+.profile-suggestion {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;         /* Use flex instead of inline-block */
+  align-items: center;   /* Perfectly centers items vertically */
+  gap: 15px;             /* Clean space between image, text, and button */
+  max-width: 350px;      /* Prevents the card from getting too wide */
+  padding: 10px;
+  border: 1px solid #ddd; /* Optional: just to see the boundary */
+  border-radius: 8px;
+  
+}
+
+.profile-container {
+    width: 70px;
+    flex-shrink: 0;
+}
+
+.profile {
+    width: 100%;
+    border-radius: 80px;
+}
+
+.user-data {
+    flex-grow: 1;
+
+
+}
+
+.name {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.role,
+.bio {
+    font-size: 14px;
+    color: rgb(92, 91, 91);
+}
+
+.role {
+    margin-bottom: 6px;
+}
+
+.follow-button {
+    flex-shrink: 0;
+}
+
+.follow {
+    color: white;
+    background-color: rgb(10, 124, 255);
+    font-weight: bold;
+    border: none;
+    padding: 7px 12px 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: box-shadow ease-in-out 0.20s;
+}
+
+.follow:hover {
+    box-shadow: 0 0 3px 3px rgba(26, 24, 24, 0.23);
+}
+
+.follow:active {
+    box-shadow: 0 0 3px 3px rgba(26, 24, 24, 0.43);
+}
