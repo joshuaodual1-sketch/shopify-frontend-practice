@@ -1,0 +1,84 @@
+.suggestion-page {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 5px;
+    padding: 9px;
+
+}
+.friends-suggestion {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    max-width: 140px;
+    box-shadow: 0 0 2px 2px rgba(12, 12, 12, 0.288);
+    border-radius: 5px;
+}
+
+p {
+    margin: 0px;
+}
+
+.user-data {
+    padding: 7px;
+}
+.profile-container {
+    width: 140px;
+  
+}
+
+.profile-pic {
+    width: 100%;
+    max-height: 140px;
+}
+
+.name {
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+.friend-pfp {
+    width: 30px;
+    display: inline-block;
+    margin-bottom: 12px;
+   
+
+}
+
+.pfp {
+    width: 100%;
+    max-height: 30px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.friends-list {
+    display: inline-block;
+    max-width: 110px;
+}
+
+.mutual-friends {
+    font-size: 12px;
+    display: inline-block;
+}
+
+.button {
+    padding: 7px 12px 7px;
+    border: none;
+    background-color: #1877F2;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow ease-in-out 0.15s;
+}
+
+.button:hover {
+    box-shadow: 0 0 2px 2px rgba(12, 12, 12, 0.218);
+}
+
+.button:active {
+    transform: translateY(1px);
+    box-shadow: 0 0 2px 2px rgba(12, 12, 12, 0.298)
+
+}
+
+
+
