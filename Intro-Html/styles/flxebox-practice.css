@@ -1,0 +1,74 @@
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+.suggestions {
+    display: grid;
+    row-gap: 13px;
+    padding: 10px;
+}
+.suggested-account {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    width: 300px;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.profile-pic {
+    width: 65px;
+    max-height: 65px;
+}
+
+.pic {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.name {
+    font-weight: 550;
+    margin-bottom: 4px;
+    
+}
+
+.username {
+    font-size: 13px;
+    font-weight: 420;
+    color: rgba(0, 0, 0, 0.808);
+    margin-bottom: 2px;
+
+}
+
+.bio {
+    font-weight: 420;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.808);
+}
+
+.cta {
+    display: flex;
+    flex: 1;
+    justify-content: right;
+}
+
+.follow-button {
+    color: white;
+    background-color: rgb(16, 112, 238);
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px 7px;
+    cursor: pointer;
+    transition: box-shadow ease-in-out 0.15s;
+}
+
+.follow-button:hover {
+    opacity: 0.82;
+}
+
+.follow-button:active {
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.192);
+}
+
