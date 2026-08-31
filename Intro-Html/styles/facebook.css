@@ -1,10 +1,8 @@
 .suggestion-page {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    margin: 5px;
+    display: grid;
+    grid-template-columns: 140px 140px 140px 140px;
     padding: 9px;
-
+    column-gap: 16px;
 }
 .friends-suggestion {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -12,6 +10,7 @@
     max-width: 140px;
     box-shadow: 0 0 2px 2px rgba(12, 12, 12, 0.288);
     border-radius: 5px;
+    
 }
 
 p {
@@ -21,10 +20,8 @@ p {
 .user-data {
     padding: 7px;
 }
-.profile-container {
-    width: 140px;
-  
-}
+
+
 
 .profile-pic {
     width: 100%;
@@ -33,31 +30,33 @@ p {
 
 .name {
     font-weight: 500;
-    margin-bottom: 3px;
+}
+
+.friend-details {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    align-items: center;
+    column-gap: 6px;
+    row-gap: 10px;
+
 }
 .friend-pfp {
     width: 30px;
-    display: inline-block;
-    margin-bottom: 12px;
-   
-
 }
 
 .pfp {
     width: 100%;
     max-height: 30px;
     border-radius: 50%;
-    vertical-align: middle;
 }
 
 .friends-list {
-    display: inline-block;
     max-width: 110px;
+    
 }
 
 .mutual-friends {
     font-size: 12px;
-    display: inline-block;
 }
 
 .button {
