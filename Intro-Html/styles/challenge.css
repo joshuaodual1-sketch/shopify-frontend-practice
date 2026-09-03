@@ -1,0 +1,72 @@
+p {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.189);
+}
+
+.label {
+    width: 100%;
+    color: rgb(100, 99, 99);
+}
+
+.email-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.profile-pic-container {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.profile-pic {
+    width: 100%;
+
+    border-radius: 30px;
+}
+
+.email-info {
+    display: flex;
+    flex-direction: column;
+    column-gap: 25px;
+    flex: 1;
+}
+
+.header {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.email-title {
+    width: 200px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.email-time {
+    font-size: 13.4px;
+    color: rgb(100, 99, 99);
+}
+
+.subtitle {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.preview {
+    font-size: 13.7px;
+    color: rgb(100, 99, 99);
+    margin-top: 3px;
+}
+
