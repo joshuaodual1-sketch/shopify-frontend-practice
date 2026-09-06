@@ -1,0 +1,56 @@
+.page-container {
+    display: flex;
+    vertical-align: top;
+}
+
+p {
+    margin: 0;
+}
+
+.first-sidebar {
+    display: flex;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 13px ;
+}
+
+.pic-container {
+    padding-top: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.profile-pic {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.second-sidebar {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.877);
+    width: 200px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 66.4px;
+    padding-top: 13px ;
+    padding-left: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.channel-header {
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.channel-page {
+    color: rgba(255, 255, 255, 0.699);
+    margin-top: 13px;
+    cursor: pointer;
+}
