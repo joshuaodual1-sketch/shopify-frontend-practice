@@ -1,0 +1,48 @@
+.cart {
+    display: inline-block;
+    position: relative;
+    
+}
+
+.item {
+    width: 300px;
+}
+
+.discount {
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 3px 5px;
+    font-size: 13px;
+    top: 0;
+    right: 0;
+}
+
+.overlay {
+    display: flex;
+    position: absolute;
+    height: 110px;
+    background-color: rgba(252, 249, 249, 0.5);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    padding: 8px 10px;
+    border: 2px solid black;
+    background-color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: ease-in box-shadow 0.15s;
+}
+
+.btn:hover {
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2);
+}
