@@ -1,10 +1,41 @@
 .video-preview-grid {
     display: grid;
+    font-family: Roboto, Arial;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
+}
+
+@media (max-width: 750px) {
+    .video-preview-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+@media (max-width: 751px) and (min-width: 999px) {
+    .video-preview-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
 
 }
+
+@media (min-width: 1000px) {
+    .video-preview-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .video-title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+    
+}
+
 .thumbnail {
     width: 100%;
 }
@@ -16,8 +47,9 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
+
 
 
 .video-info-grid {
@@ -28,12 +60,14 @@
 
 
 .profile-picture {
-    width: 40px;
+    width: 36px;
+    height: 36px;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 .thumbnail-row {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     position: relative;
     
 }
@@ -49,7 +83,6 @@
 }
 
 .video-time {
-    font-family: Roboto, arial;
     font-size: 12px;
     font-weight: 500;
     padding: 4px 4px 4px 4px;
@@ -59,4 +92,56 @@
     position: absolute;
     right: 5px;
     bottom: 8px;
+}
+
+.video-link {
+    text-decoration: none;
+    color: black;
+}
+
+.pfp-container {
+    display: inline-block;
+    position: relative;
+}
+
+.pfp {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    
+}
+
+.profile-preview {
+    display: flex;
+    position: absolute;
+    font-family: Roboto, Arial;
+    background-color: white;
+    align-items: center;
+    white-space: nowrap;
+    bottom: -57px;
+    padding: 9px 13px;
+    column-gap: 8px;
+    border-radius: 6px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.247);
+    z-index: 200;
+    transition: opacity 0.30s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.pfp-container:hover .profile-preview {
+    opacity: 1;
+}
+
+
+
+.author-name {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+.subs {
+    font-size: 13px;
+    color: grey;
 }
